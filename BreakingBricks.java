@@ -11,10 +11,10 @@ public class BreakingBricks{
 			if(w1+w2+w3<=s){
 				System.out.println("1");
 			}
-			else if(w1+w2<=s||w2+w3<=s){
+			else if (w1+w2<=s||w2+w3<=s){
 				System.out.println("2");
 			}
-			else{
+			else {
 				System.out.println("3");
 			}
 		}
