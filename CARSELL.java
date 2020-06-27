@@ -15,6 +15,7 @@ class CARSELL{
 				if(a[i]!=0)
 					cnt+=x-i;
 			}
+			//count
 			System.out.println(cnt);
 		}
 		
