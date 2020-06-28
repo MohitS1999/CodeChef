@@ -2,6 +2,7 @@ import java.util.*;
 public class Carvans{
 	public static void main(String[] args){
 		Scanner sc=new Scanner(System.in);
+		//testCases
 		int t=sc.nextInt();
 		while(t-->0){
 			int c=1;
