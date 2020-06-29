@@ -2,6 +2,7 @@ import java.util.*;
 public class Chocalate{
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
+	//testcases
         int t=sc.nextInt();
         while(t-->0){
             int totamt=sc.nextInt();
