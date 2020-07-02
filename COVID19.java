@@ -6,7 +6,9 @@ public class COVID19{
 		while(t-->0){
 			int n=sc.nextInt();
 			int cnt=1;
+			//Maximum
 			int max=Integer.MIN_VALUE;
+			//Minimum
 			int min=Integer.MAX_VALUE;
 			int a[]=new int[n];
 			int b[]=new int[n];
