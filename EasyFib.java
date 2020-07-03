@@ -19,12 +19,5 @@ public class EasyFib{
 			}
 			System.out.println(fib[p%60-1]);
 		}
-		for (int i=0;i<=60;i++){
-			System.out.print(fib[i]+"  ");
-		}
-		System.out.println();
-		for (int i=61;i<90;i++){
-			System.out.print(fib[i]+"  ");
-		}
 	}
 }
