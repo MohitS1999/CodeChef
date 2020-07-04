@@ -11,7 +11,7 @@ public class FactorialCode{
 				mul+=n/a;
 				a*=5;
 			}
-			System.out.println("---"+mul);
+			System.out.println(mul);
 		}
 	}
 }
