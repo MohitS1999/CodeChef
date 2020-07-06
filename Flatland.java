@@ -11,19 +11,15 @@ public class Flatland{
         int max=Integer.MIN_VALUE;
 		
         for(int i=0;i<m;i++){
-			//System.out.println("I  "+i);
             int min=Integer.MAX_VALUE;
             for(int j=0;j<n;j++){
 				
                 if (Math.abs(i-a[j])<=min){
-					//System.out.println("--"+a[j]);
-					//System.out.println("abs--"+Math.abs(i-a[j]));
+		
                     min=Math.abs(i-a[j]);
-					//System.out.println("min "+min);
 					
                 }
             }
-			//System.out.println("min---"+min);
             if (min>max){
 				max=min;
 			}
