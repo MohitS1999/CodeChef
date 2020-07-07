@@ -16,23 +16,19 @@ class FullBarier{
 				int x=sc.nextInt();
 				if(!fail){
 					if(T==1){
-						if((h-y1)<=x||h<=x){
-							cnt++;
-						}else{
-							if(l>0)
-								cnt++;
-								l--;
-								if(l==0){
-									fail=true;
-									cnt--;
-								}	
-							}
+						if((h-y1)<=x||h<=x) cnt++;
+						else{
+							if(l>0) cnt++;
+							l--;
+							if(l==0){
+								fail=true;
+								cnt--;
+							}	
+						}
 						if(T==2){
-							if(y2>=x){
-								cnt++;
-							}else{
-								if(l>0)
-								cnt++;
+							if(y2>=x) cnt++;
+							else{
+								if(l>0) cnt++;
 								l--;
 								if(l==0){
 									fail=true;
