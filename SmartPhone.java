@@ -6,6 +6,7 @@ public class SmartPhone{
 		int a[]=new int[n];
 		for(int i=0;i<n;i++)
 			a[i]=sc.nextInt();
+		//sort an array
 		Arrays.sort(a);
 		int max=0;
 		for(int i=0;i<n;i++){
