@@ -28,7 +28,6 @@ class STRNO
 	        while(n%i==0){
 	            cnt++;
 	            n/=i;
-				System.out.println(n+"COUNT"+cnt);
 	        }
 	    }
 	    if(n>2)
