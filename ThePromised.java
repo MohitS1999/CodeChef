@@ -20,11 +20,8 @@ public class ThePromised{
 			int n=0;
 			if(i<Y){
 				n1=y[i]-(m+1);
-				//System.out.println(m);
-			//	System.out.println("y[i]"+y[i]);
 				n3=n1%s;
 				n1=n1-n3;
-				//System.out.println(n1);
 				for(int j=0;j<=X;j++){
 					if(j<X){
 						n2=x[j]-(n+1);
@@ -40,28 +37,21 @@ public class ThePromised{
 						n2=N-x[j-1];
 						n4=(n2%s);
 						n2=n2-n4;
-						//System.out.println(n2);
-						//System.out.println(p);
-					//	System.out.println(n1);
 						p+=n1*n2;
-						//System.out.println("if y elseif x...."+p);
 					}
 				}
 				m=y[i];
 			}
 			else if(i==Y){
 				n1=M-y[i-1];
-				//System.out.println("--"+n1);
 				n3=(n1%s);
 				n1=n1-n3;
-				//System.out.println(n1);
 				for(int j=0;j<=X;j++){
 					if(j<X){
 						n2=x[j]-(n+1);
 						n4=n2%s;
 						n2=n2-n4;
 						p+=n1*n2;
-						//System.out.println("elseif if x...."+p);
 						n=x[j];
 					}
 					else if(j==X){
@@ -69,7 +59,6 @@ public class ThePromised{
 						n4=(n2%s);
 						n2=n2-n4;
 						p+=n1*n2;
-						//System.out.println("elseif if x...."+p);
 					}
 				}
 			}
